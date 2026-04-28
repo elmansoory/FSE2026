@@ -1,0 +1,33 @@
+{
+  "version": "v2.8.2-video-validation-benchmark",
+  "base": "v2.8.1-real-academy-data-intake",
+  "added": [
+    "video_validation_runs_table",
+    "video_ground_truth_table",
+    "video_model_predictions_table",
+    "video_validation_benchmark_app",
+    "ground_truth_entry",
+    "prediction_entry",
+    "validation_export_json_csv_xlsx"
+  ],
+  "validation_export": {
+    "summary_json": "/mnt/data/fse_owner_v2_8_2/video_validation_exports/video_validation_summary.json",
+    "ground_truth_json": "/mnt/data/fse_owner_v2_8_2/video_validation_exports/video_ground_truth.json",
+    "predictions_json": "/mnt/data/fse_owner_v2_8_2/video_validation_exports/video_model_predictions.json",
+    "merged_csv": "/mnt/data/fse_owner_v2_8_2/video_validation_exports/video_validation_merged.csv",
+    "merged_xlsx": "/mnt/data/fse_owner_v2_8_2/video_validation_exports/video_validation_merged.xlsx",
+    "report_md": "/mnt/data/fse_owner_v2_8_2/video_validation_exports/video_validation_report.md",
+    "summary": {
+      "validation_runs_total": 0,
+      "ground_truth_rows": 0,
+      "prediction_rows": 0,
+      "matched_prediction_rows": 0,
+      "pending_prediction_rows": 0,
+      "element_match_rate_percent": 0.0,
+      "error_match_rate_percent": 0.0,
+      "goe_match_rate_percent": 0.0,
+      "benchmark_ready": false,
+      "owner_note": "Benchmark shell is ready, but there is no validated clip set yet."
+    }
+  }
+}

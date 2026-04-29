@@ -1,0 +1,12 @@
+{
+  "validation_runs_total": 0,
+  "ground_truth_rows": 0,
+  "prediction_rows": 0,
+  "matched_prediction_rows": 0,
+  "pending_prediction_rows": 0,
+  "element_match_rate_percent": 0.0,
+  "error_match_rate_percent": 0.0,
+  "goe_match_rate_percent": 0.0,
+  "benchmark_ready": false,
+  "owner_note": "Benchmark shell is ready, but there is no validated clip set yet."
+}

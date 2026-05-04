@@ -1,0 +1,14 @@
+{
+  "version": "vX.Y.Z-release-name",
+  "base": "previous-release",
+  "added": [
+    "main_app",
+    "launcher",
+    "export_reports"
+  ],
+  "release_truth": {
+    "production_accuracy_confirmed": false,
+    "benchmark_ready": false,
+    "owner_note": "Replace this with the current factual state of the release."
+  }
+}
